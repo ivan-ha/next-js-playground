@@ -1,19 +1,9 @@
-import Link from 'next/link'
-
-const linkStyles = {
-  fontSize: 20,
-}
+import Layout from '../components/layout'
 
 const Index = () => (
-  <div>
-    <Link href="/about">
-      <a style={linkStyles}>About Page</a>
-    </Link>
-    <Link href="/about">
-      <button>Just another link to About Page</button>
-    </Link>
+  <Layout>
     <p>Welcome to next.js</p>
-  </div>
+  </Layout>
 )
 
 export default Index

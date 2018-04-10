@@ -1,7 +1,9 @@
+import Layout from '../components/layout'
+
 const About = () => (
-  <div>
+  <Layout>
     <p>This is about page</p>
-  </div>
+  </Layout>
 )
 
 export default About
