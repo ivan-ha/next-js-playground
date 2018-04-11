@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "next build",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "dev": "node server.js",
     "git-hook": "lint-staged",
     "precommit": "yarn git-hook",
     "prepush": "yarn git-hook",
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
