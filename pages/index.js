@@ -24,6 +24,12 @@ const Index = props => (
         <PostLink id={show.id} key={show.id} title={show.name} />
       ))}
     </ul>
+
+    <style jsx>{`
+      h1 {
+        font-family: 'Arial';
+      }
+    `}</style>
   </Layout>
 )
 
